@@ -1,166 +1,232 @@
-    1  ifconfig 
-    2  vi /etc/apt/sources.list
-    3  apt-get update
-    4  apt-get install vim
-    5  dpkg-reconfigure tzdata
-    6  apt-get update
-    7  apt-get upgrade
-    8  date
-    9  cat /etc/passwd
-   10  df -ht
-   11  df -hT
-   12  history 
-   13  vim .bash_history 
-   14  history 
-   15  cat .bash_history 
-   16  apt-get update
-   17  history 
-   18  cat .bash_history 
-   19  cat .bash_history 
-   20  reboot 
-   21  cat .bash_history 
-   22  shutdown -h now
-   23  apt-get install update
-   24  ifconfig 
-   25  ifconfig 
-   26  ping 8.8.8.8
-   27  ping 8.8.8.8
-   28  apt-get install update
-   29  apt-get install git
-   30  shutdown -r now
-   31  touch README,md
-   32  git init
-   33  ls
-   34  rm README,md 
-   35  mkdir SO
-   36  ls
-   37  cd SO/
-   38  touch README.md
-   39  git init
-   40  git add README.md
-   41  git commit -m "first commit"
-   42  git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
-   43  git push -u origin master
-   44  git push -u origin master
-   45  git push -u origin master
-   46  apt-get install vim
-   47  vim
-   48  vim version-check.sh
-   49  123 VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
-   50  exit
-   51  .exit
-   52  logout
-   53  exit
-   54  quit
-   55  .quit
-   56  ;
-   57  :q
-   58  >x
-   59  VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
-   60  quit
-   61  .exit
-   62  sair
-   63  exit
-   64  quit
-   65  .q
-   66  .quit
-   67  .exit
-   68  // logout
-   69  root
-   70  123
-   71  asd
-   72  vim
-   73  vim asd
-   74  exit
-   75  sair
-   76  :x
-   77  >1
-   78  >>>>[]]
-   79  ;
-   80  -
-   81  q
-   82  2
-   83  3
-   84  4
-   85  5
-   86  help
-   87  --help
-   88  clear
-   89  sdoaisdhfisdhfis
-   90  pwd
-   91  ls
-   92  users
-   93  VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/root"
-   94  su -
-   95  apt-get install ssh
-   96  ifconfig 
-   97  ls
-   98  ls
-   99  ./version-check.sh 
-  100  chmod a+x version-check.sh 
-  101  ./version-check.sh 
-  102  vim version-check.sh 
-  103  rm version-check.sh 
-  104  vim version-check.sh
-  105  ls
-  106  chmod a+x version-check.sh
-  107  ./version-check.sh 
-  108  bass --version
-  109  bash --version
-  110  Bash --version
-  111  Bash --version
-  112  bash --version
-  113  binutils --version
-  114  binutils --version
-  115  apt-get install binutils-2.17
-  116  apt-get install binutils
-  117  binutils --version
-  118  ls --version
-  119  bison --version
-  120  apt-get install bison
-  121  ld --version
-  122  chown --version
-  123  diff --version
-  124  find --verison
-  125  find --version
-  126  apt-get install Binutils-2.17
-  127  bzip --version
-  128  bzip2 --version
-  129  coreutils --version
-  130  apt-get install coreutils
-  131  corelist --version
-  132  diff3 --version
-  133  find --verion
-  134  find --version
-  135  gawk --version
-  136  apt-get install gawk
-  137  gcc --version
-  138  glibe --version
-  139  apt-get install glibe
-  140  apt-get install glibe
-  141  apt-get update
-  142  apt-get install glibe
-  143  apt-get install glibc
-  144  sudo apt-get install glibc-devel
-  145  apt-get install glibc-devel
-  146  ls
-  147  cd SO/
-  148  vi packetinstall
-  149  grep --version
-  150  apt-get install grep-2.5.1a
-  151  apt-get install gawk
-  152  vi packetinstall
-  153  gzip --version
-  154  apt-get install gcc-4.1.2
-  155  kernel --version
-  156  shutdown -h now
-  157  ls
-  158  vim version-check.sh
-  159  ls
-  160  cat version-check.sh 
-  161  ./version-check.sh 
-  162  su -
-  163  history 
-  164  ls
-  165  cd SO/
-  166  history > history.txt
+ifconfig 
+vi /etc/apt/sources.list
+apt-get update
+apt-get install vim
+dpkg-reconfigure tzdata
+apt-get update
+apt-get upgrade
+date
+cat /etc/passwd
+df -ht
+df -hT
+history 
+vim .bash_history 
+history 
+cat .bash_history 
+apt-get update
+history 
+cat .bash_history 
+cat .bash_history 
+reboot 
+cat .bash_history 
+shutdown -h now
+apt-get install update
+ifconfig 
+ifconfig 
+ping 8.8.8.8
+ping 8.8.8.8
+apt-get install update
+apt-get install git
+shutdown -r now
+touch README,md
+git init
+ls
+rm README,md 
+mkdir SO
+ls
+cd SO/
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
+git push -u origin master
+git push -u origin master
+git push -u origin master
+apt-get install vim
+vim
+vim version-check.sh
+123 VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
+exit
+.exit
+logout
+exit
+quit
+.quit
+;
+:q
+>x
+
+VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
+quit
+.exit
+sair
+exit
+quit
+.q
+.quit
+.exit
+// logout
+root
+123
+asd
+vim
+vim asd
+exit
+sair
+:x
+>1
+>>>>[]]
+;
+-
+q
+2
+3
+4
+5
+help
+--help
+
+
+
+
+
+
+
+
+
+
+clear
+
+sdoaisdhfisdhfis
+
+
+pwd
+ls
+users
+VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/root"
+su -
+apt-get install ssh
+ifconfig 
+ls
+ls
+./version-check.sh 
+chmod a+x version-check.sh 
+./version-check.sh 
+vim version-check.sh 
+rm version-check.sh 
+vim version-check.sh
+ls
+chmod a+x version-check.sh
+./version-check.sh 
+bass --version
+bash --version
+Bash --version
+Bash --version
+bash --version
+binutils --version
+binutils --version
+apt-get install binutils-2.17
+apt-get install binutils
+binutils --version
+ls --version
+bison --version
+apt-get install bison
+ld --version
+chown --version
+diff --version
+find --verison
+find --version
+apt-get install Binutils-2.17
+bzip --version
+bzip2 --version
+coreutils --version
+apt-get install coreutils
+corelist --version
+diff3 --version
+find --verion
+find --version
+gawk --version
+apt-get install gawk
+gcc --version
+glibe --version
+apt-get install glibe
+apt-get install glibe
+apt-get update
+apt-get install glibe
+apt-get install glibc
+sudo apt-get install glibc-devel
+apt-get install glibc-devel
+ls
+cd SO/
+vi packetinstall
+grep --version
+apt-get install grep-2.5.1a
+apt-get install gawk
+vi packetinstall
+gzip --version
+apt-get install gcc-4.1.2
+kernel --version
+shutdown -h now
+ls
+vim version-check.sh
+ls
+cat version-check.sh 
+./version-check.sh 
+su -
+history 
+ls
+cd SO/
+history > history.txt
+git init
+git add history.txt
+git commit -m "segundo commit"
+git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
+git push -u origin master
+shutdown -h now
+ping 8.8.8.8
+apt-get update 
+apt-get install glibc
+apt-get install grep
+apt-get install gzip
+apt-get install m4
+apt-get install make
+apt-get install patch
+apt-get install perl
+apt-get install sed
+apt-get install tar
+apt-get install xz
+cat > version-check.sh << "EOF"
+:q
+logout
+user
+
+ls
+cd SO/
+ls
+vim packetinstall 
+vim configure.victor.sh
+chmod a+x configure.victor.sh 
+./configure.victor.sh 
+fdisk
+fdisk /dev/sda
+clear
+ls
+dpkg -l | grep bison
+bison --help
+apt-get install bison
+bison --help lp
+bison --version
+apt-cache search gawk | grep gawk
+apt-get install gawk
+gawk --version
+apt-get install g++
+g++ -v
+g++ -version
+g++ --version
+apt-cache search grep
+grep --version
+ls
+history 
+EXIT
+exit
