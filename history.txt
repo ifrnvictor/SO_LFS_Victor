@@ -1,232 +1,488 @@
-ifconfig 
-vi /etc/apt/sources.list
-apt-get update
-apt-get install vim
-dpkg-reconfigure tzdata
-apt-get update
-apt-get upgrade
-date
-cat /etc/passwd
-df -ht
-df -hT
-history 
-vim .bash_history 
-history 
-cat .bash_history 
-apt-get update
-history 
-cat .bash_history 
-cat .bash_history 
-reboot 
-cat .bash_history 
-shutdown -h now
-apt-get install update
-ifconfig 
-ifconfig 
-ping 8.8.8.8
-ping 8.8.8.8
-apt-get install update
-apt-get install git
-shutdown -r now
-touch README,md
-git init
-ls
-rm README,md 
-mkdir SO
-ls
-cd SO/
-touch README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
-git push -u origin master
-git push -u origin master
-git push -u origin master
-apt-get install vim
-vim
-vim version-check.sh
-123 VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
-exit
-.exit
-logout
-exit
-quit
-.quit
-;
-:q
->x
-
-VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
-quit
-.exit
-sair
-exit
-quit
-.q
-.quit
-.exit
-// logout
-root
-123
-asd
-vim
-vim asd
-exit
-sair
-:x
->1
->>>>[]]
-;
--
-q
-2
-3
-4
-5
-help
---help
-
-
-
-
-
-
-
-
-
-
-clear
-
-sdoaisdhfisdhfis
-
-
-pwd
-ls
-users
-VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/root"
-su -
-apt-get install ssh
-ifconfig 
-ls
-ls
-./version-check.sh 
-chmod a+x version-check.sh 
-./version-check.sh 
-vim version-check.sh 
-rm version-check.sh 
-vim version-check.sh
-ls
-chmod a+x version-check.sh
-./version-check.sh 
-bass --version
-bash --version
-Bash --version
-Bash --version
-bash --version
-binutils --version
-binutils --version
-apt-get install binutils-2.17
-apt-get install binutils
-binutils --version
-ls --version
-bison --version
-apt-get install bison
-ld --version
-chown --version
-diff --version
-find --verison
-find --version
-apt-get install Binutils-2.17
-bzip --version
-bzip2 --version
-coreutils --version
-apt-get install coreutils
-corelist --version
-diff3 --version
-find --verion
-find --version
-gawk --version
-apt-get install gawk
-gcc --version
-glibe --version
-apt-get install glibe
-apt-get install glibe
-apt-get update
-apt-get install glibe
-apt-get install glibc
-sudo apt-get install glibc-devel
-apt-get install glibc-devel
-ls
-cd SO/
-vi packetinstall
-grep --version
-apt-get install grep-2.5.1a
-apt-get install gawk
-vi packetinstall
-gzip --version
-apt-get install gcc-4.1.2
-kernel --version
-shutdown -h now
-ls
-vim version-check.sh
-ls
-cat version-check.sh 
-./version-check.sh 
-su -
-history 
-ls
-cd SO/
-history > history.txt
-git init
-git add history.txt
-git commit -m "segundo commit"
-git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
-git push -u origin master
-shutdown -h now
-ping 8.8.8.8
-apt-get update 
-apt-get install glibc
-apt-get install grep
-apt-get install gzip
-apt-get install m4
-apt-get install make
-apt-get install patch
-apt-get install perl
-apt-get install sed
-apt-get install tar
-apt-get install xz
-cat > version-check.sh << "EOF"
-:q
-logout
-user
-
-ls
-cd SO/
-ls
-vim packetinstall 
-vim configure.victor.sh
-chmod a+x configure.victor.sh 
-./configure.victor.sh 
-fdisk
-fdisk /dev/sda
-clear
-ls
-dpkg -l | grep bison
-bison --help
-apt-get install bison
-bison --help lp
-bison --version
-apt-cache search gawk | grep gawk
-apt-get install gawk
-gawk --version
-apt-get install g++
-g++ -v
-g++ -version
-g++ --version
-apt-cache search grep
-grep --version
-ls
-history 
-EXIT
-exit
+    1  dpkg-reconfigure tzdata
+    2  apt-get update
+    3  apt-get upgrade
+    4  date
+    5  cat /etc/passwd
+    6  df -ht
+    7  df -hT
+    8  history 
+    9  vim .bash_history 
+   10  history 
+   11  cat .bash_history 
+   12  apt-get update
+   13  history 
+   14  cat .bash_history 
+   15  cat .bash_history 
+   16  reboot 
+   17  cat .bash_history 
+   18  shutdown -h now
+   19  apt-get install update
+   20  ifconfig 
+   21  ifconfig 
+   22  ping 8.8.8.8
+   23  ping 8.8.8.8
+   24  apt-get install update
+   25  apt-get install git
+   26  shutdown -r now
+   27  touch README,md
+   28  git init
+   29  ls
+   30  rm README,md 
+   31  mkdir SO
+   32  ls
+   33  cd SO/
+   34  touch README.md
+   35  git init
+   36  git add README.md
+   37  git commit -m "first commit"
+   38  git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
+   39  git push -u origin master
+   40  git push -u origin master
+   41  git push -u origin master
+   42  apt-get install vim
+   43  vim
+   44  vim version-check.sh
+   45  123 VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
+   46  exit
+   47  .exit
+   48  logout
+   49  exit
+   50  quit
+   51  .quit
+   52  ;
+   53  :q
+   54  >x
+   55  VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/
+   56  quit
+   57  .exit
+   58  sair
+   59  exit
+   60  quit
+   61  .q
+   62  .quit
+   63  .exit
+   64  // logout
+   65  root
+   66  123
+   67  asd
+   68  vim
+   69  vim asd
+   70  exit
+   71  sair
+   72  :x
+   73  >1
+   74  >>>>[]]
+   75  ;
+   76  -
+   77  q
+   78  2
+   79  3
+   80  4
+   81  5
+   82  help
+   83  --help
+   84  clear
+   85  sdoaisdhfisdhfis
+   86  pwd
+   87  ls
+   88  users
+   89  VBoxManage sharedfolder add "win7" -name MySharedFolder -hostpath "/home/root"
+   90  su -
+   91  apt-get install ssh
+   92  ifconfig 
+   93  ls
+   94  ls
+   95  ./version-check.sh 
+   96  chmod a+x version-check.sh 
+   97  ./version-check.sh 
+   98  vim version-check.sh 
+   99  rm version-check.sh 
+  100  vim version-check.sh
+  101  ls
+  102  chmod a+x version-check.sh
+  103  ./version-check.sh 
+  104  bass --version
+  105  bash --version
+  106  Bash --version
+  107  Bash --version
+  108  bash --version
+  109  binutils --version
+  110  binutils --version
+  111  apt-get install binutils-2.17
+  112  apt-get install binutils
+  113  binutils --version
+  114  ls --version
+  115  bison --version
+  116  apt-get install bison
+  117  ld --version
+  118  chown --version
+  119  diff --version
+  120  find --verison
+  121  find --version
+  122  apt-get install Binutils-2.17
+  123  bzip --version
+  124  bzip2 --version
+  125  coreutils --version
+  126  apt-get install coreutils
+  127  corelist --version
+  128  diff3 --version
+  129  find --verion
+  130  find --version
+  131  gawk --version
+  132  apt-get install gawk
+  133  gcc --version
+  134  glibe --version
+  135  apt-get install glibe
+  136  apt-get install glibe
+  137  apt-get update
+  138  apt-get install glibe
+  139  apt-get install glibc
+  140  sudo apt-get install glibc-devel
+  141  apt-get install glibc-devel
+  142  ls
+  143  cd SO/
+  144  vi packetinstall
+  145  grep --version
+  146  apt-get install grep-2.5.1a
+  147  apt-get install gawk
+  148  vi packetinstall
+  149  gzip --version
+  150  apt-get install gcc-4.1.2
+  151  kernel --version
+  152  shutdown -h now
+  153  ls
+  154  vim version-check.sh
+  155  ls
+  156  cat version-check.sh 
+  157  ./version-check.sh 
+  158  su -
+  159  history 
+  160  ls
+  161  cd SO/
+  162  history > history.txt
+  163  git init
+  164  git add history.txt
+  165  git commit -m "segundo commit"
+  166  git remote add origin https://github.com/ifrnvictor/SO_LFS_Victor.git
+  167  git push -u origin master
+  168  shutdown -h now
+  169  ping 8.8.8.8
+  170  apt-get update 
+  171  apt-get install glibc
+  172  apt-get install grep
+  173  apt-get install gzip
+  174  apt-get install m4
+  175  apt-get install make
+  176  apt-get install patch
+  177  apt-get install perl
+  178  apt-get install sed
+  179  apt-get install tar
+  180  apt-get install xz
+  181  cat > version-check.sh << "EOF"
+  182  :q
+  183  logout
+  184  user
+  185  ls
+  186  cd SO/
+  187  ls
+  188  vim packetinstall 
+  189  vim configure.victor.sh
+  190  chmod a+x configure.victor.sh 
+  191  ./configure.victor.sh 
+  192  fdisk
+  193  fdisk /dev/sda
+  194  clear
+  195  ls
+  196  dpkg -l | grep bison
+  197  bison --help
+  198  apt-get install bison
+  199  bison --help lp
+  200  bison --version
+  201  apt-cache search gawk | grep gawk
+  202  apt-get install gawk
+  203  gawk --version
+  204  apt-get install g++
+  205  g++ -v
+  206  g++ -version
+  207  g++ --version
+  208  apt-cache search grep
+  209  grep --version
+  210  ls
+  211  history 
+  212  EXIT
+  213  exit
+  214  ifconfig 
+  215  dhclient eth0 
+  216  ifconfig 
+  217  ifconfig 
+  218  cat .bash_history 
+  219  ls
+  220  cd SO/
+  221  cd ..
+  222  cp .bash_history SO/history.txt
+  223  cd SO/
+  224  ls
+  225  cat history.txt 
+  226  git add history.txt
+  227  git commit -m "Instalações iniciais e pré-requisitos"
+  228  git push
+  229  git clone https://github.com/ifrnvictor/history.txt.git
+  230  git clone https://github.com/ifrnvictor/SO_LFS_Victor
+  231  cd ..
+  232  cp .bash_history SO/history.txt 
+  233  cd SO/
+  234  git add history.txt
+  235  git commit -m "Teste de clone"
+  236  git push
+  237  fdisk -l
+  238  fdisk /dev/sdb
+  239  shutdown -h now
+  240  ifconfig 
+  241  ls /etc
+  242  vim /root/.bashrc 
+  243  ls /etc
+  244  source /root/.bashrc 
+  245  ls /etc
+  246  ll
+  247  apt-get update
+  248  ./version-check.sh 
+  249  ./version-check.sh << 'EOF'
+  250  cat > version-check.sh << "EOF"
+  251  vim version-check.sh 
+  252  ./version-check.sh 
+  253  ./version-check.sh 
+  254  /etc/init.d/networking restart
+  255  ifconfig 
+  256  ifconfig 
+  257  ifconfig 
+  258  ifconfig -a
+  259  dhclient
+  260  dhclient eth0
+  261  ifconfig 
+  262  traceroute 8.8.8.8
+  263  apt-get update
+  264  ./version-check.sh 
+  265  apt-get install libgmp-dev 
+  266  ./version-check.sh 
+  267  df -hT
+  268  fdisk -L
+  269  fdisk -l
+  270  fdisk /dev/sdb
+  271  fdisk -l
+  272  cd /media/
+  273  ls
+  274  mkdir lfs
+  275  ls
+  276  mkfs -v -t ext4 /dev/sdb1
+  277  fdisk -l
+  278  export LFS=/media/lfs
+  279  ls $LFS
+  280  mount -v -t ext4 /dev/sdb1 $LFS
+  281  df -hT
+  282  vim /etc/fstab
+  283  reboot
+  284  vim version-check.sh
+  285  ls
+  286  ll
+  287  vim /root/.bashr
+  288  vim /root/.bashrc 
+  289  df -hT
+  290  mount -v -t ext4 /dev/sdb1 $LFS
+  291  vim /etc/fstab
+  292  reboot
+  293  shutdown -h now
+  294  history 
+  295  df -hT
+  296  mount -v -t ext4 /dev/sdb1 $LFS
+  297  mount -v -t ext4 /dev/sdb1 $LFS | more
+  298  mount -v -t ext4 /dev/sdb1 $LFS | grep more
+  299  cls
+  300  clear
+  301  mount -v -t ext4 /dev/sdb1 $LFS | grep more
+  302  vim /etc/fstab
+  303  reboot
+  304  df -hT
+  305  mount -v -t ext4 /dev/sdb1 $LFS | grep more
+  306  mount -v -t ext4 /dev/sdb1 $LFS
+  307  df -hT
+  308  cd #LFS
+  309  ls
+  310  ll
+  311  cd /media/lfs/
+  312  ll
+  313  cd ..
+  314  ls
+  315  cd ..
+  316  cd /mnt/
+  317  ls
+  318  cd ..
+  319  ls
+  320  ll
+  321  mkfs -v -t ext4 /dev/sdb1
+  322  fdisk -l
+  323  export LFS=/media/lfs
+  324  ls $LFS
+  325  mount -v -t ext4 /dev/sdb1 $LFS
+  326  df -hT
+  327  vim /etc/fstab
+  328  reboot
+  329  df -hT
+  330  vim /etc/fstab
+  331  reboot
+  332  cd /media/lfs/sources/
+  333  wget http://ftp.gnu.org/gnu/gmp/gmp-5.1.3.tar.xz
+  334  wget http://ftp.gnu.org/gnu/grep/grep-2.16.tar.xz
+  335  wget http://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz
+  336  wget  http://ftp.gnu.org/gnu/inetutils/inetutils-1.9.2.tar.gz
+  337  wget http://www.greenwoodsoftware.com/less/less-458.tar.gz
+  338  wget http://www.linuxfromscratch.org/lfs/downloads/7.5/lfs-bootscripts-20130821.tar.bz2
+  339  wget 
+  340  wget http://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.2.6.tar.gz
+  341  wget http://www.kernel.org/pub/linux/kernel/v3.x/linux-3.13.3.tar.xz
+  342  wget http://www.linuxfromscratch.org/patches/lfs/7.5/bzip2-1.0.6-install_docs-1.patch
+  343  wget http://www.linuxfromscratch.org/patches/lfs/7.5/readline-6.2-fixes-2.patch
+  344  cd
+  345  ls
+  346  cd SO/
+  347  ls
+  348  cat history.txt 
+  349  history > history.txt 
+  350  cat history.txt 
+  351  vim history.txt 
+  352  cat history.txt 
+  353  git add history.txt
+  354  cd /media/lfs/sources/
+  355  wget http://ftp.gnu.org/gnu/groff/groff-1.22.2.tar.gz
+  356  wget http://ftp.gnu.org/gnu/gzip/gzip-1.6.tar.xz
+  357  wget http://ftp.altlinux.org/pub/people/legion/kbd/kbd-2.0.1.tar.gz
+  358  wget http://ftp.gnu.org/gnu/m4/m4-1.4.17.tar.xz
+  359  wget http://ftp.gnu.org/gnu/make/make-4.0.tar.bz2
+  360  wget 
+  361  wget http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
+  362  wget http://ftp.gnu.org/gnu/patch/patch-2.7.1.tar.xz
+  363  wget http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+  364  wget http://prdownloads.sourceforge.net/psmisc/psmisc-22.20.tar.gz
+  365  wget http://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz
+  366  wget http://www.infodrom.org/projects/sysklogd/download/sysklogd-1.5.tar.gz
+  367  wget http://download.savannah.gnu.org/releases/sysvinit/sysvinit-2.88dsf.tar.bz2
+  368  wget http://prdownloads.sourceforge.net/tcl/tcl8.6.1-src.tar.gz
+  369  wget ftp://ftp.vim.org/pub/vim/unix/vim-7.4.tar.bz2
+  370  wget http://www.linuxfromscratch.org/patches/lfs/7.5/sysvinit-2.88dsf-consolidated-1.patch
+  371  ls
+  372  ll
+  373  cd /media/lfs/
+  374  ls
+  375  cd sources/
+  376  ls
+  377  wget http://ftp.gnu.org/gnu/bison/bison-3.0.2.tar.xz
+  378  wget http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+  379  wget http://sourceforge.net/projects/check/files/check/0.9.12/check-0.9.12.tar.gz
+  380  wget http://ftp.gnu.org/gnu/coreutils/coreutils-8.22.tar.xz
+  381  wget http://ftp.gnu.org/gnu/diffutils/diffutils-3.3.tar.xz
+  382  wget http://prdownloads.sourceforge.net/expect/expect5.45.tar.gz
+  383  wget ftp://ftp.astron.com/pub/file/file-5.17.tar.gz
+  384  wget http://prdownloads.sourceforge.net/flex/flex-2.5.38.tar.bz2
+  385  wget http://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2
+  386  wget http://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2
+  387  wget http://www.kernel.org/pub/linux/docs/man-pages/man-pages-3.59.tar.xz
+  388  wget http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz
+  389  wget http://www.cpan.org/src/5.0/perl-5.18.2.tar.bz2
+  390  wget http://www.freedesktop.org/software/systemd/systemd-208.tar.xz
+  391  wget http://www.kernel.org/pub/linux/utils/util-linux/v2.24/util-linux-2.24.1.tar.xz
+  392  wget http://www.zlib.net/zlib-1.2.8.tar.xz
+  393  ll
+  394  rm gcc-4.8.2.tar.bz2.1 
+  395  ll
+  396  wget http://www.linuxfromscratch.org/patches/lfs/7.5/coreutils-8.22-i18n-4.patch
+  397  wget http://www.linuxfromscratch.org/patches/lfs/7.5/perl-5.18.2-libc-1.patch
+  398  ll
+  399  echo $LFS
+  400  export LFS=/media/lfs
+  401  echo cd $LFS
+  402  echo $LFS
+  403  echo $LFS
+  404  cd $LFS
+  405  ls
+  406  cd sources/
+  407  ls
+  408  wget http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.xz
+  409  wget http://ftp.gnu.org/gnu/automake/automake-1.14.1.tar.xz
+  410  wget http://ftp.gnu.org/gnu/bash/bash-4.2.tar.gz
+  411  wget http://alpha.gnu.org/gnu/bc/bc-1.06.95.tar.bz2
+  412  wget http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2
+  413  wget http://ftp.gnu.org/gnu/dejagnu/dejagnu-1.5.1.tar.gz
+  414  wget http://prdownloads.sourceforge.net/e2fsprogs/e2fsprogs-1.42.9.tar.gz
+  415  wget http://ftp.gnu.org/gnu/findutils/findutils-4.4.2.tar.gz
+  416  wget http://ftp.gnu.org/gnu/gawk/gawk-4.1.0.tar.xz
+  417  wget http://ftp.gnu.org/gnu/gdbm/gdbm-1.11.tar.gz
+  418  wget http://ftp.gnu.org/gnu/gettext/gettext-0.18.3.2.tar.gz
+  419  wget http://ftp.gnu.org/gnu/glibc/glibc-2.19.tar.xz
+  420  wget http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.
+  421  bz2
+  422  wget http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.
+  423  bz2
+  424  http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.
+  425  bz2
+  426  http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.
+  427  bz2
+  428  wget  http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.
+  429  bz2
+  430   http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.
+  431  bz2
+  432  wget http://anduin.linuxfromscratch.org/sources/LFS/lfs-packages/conglomeration//iana-etc/iana-etc-2.30.tar.bz2
+  433  wget http://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-3.12.0.tar.xz
+  434  wget http://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-16.tar.xz
+  435  wget http://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz
+  436  wget http://download.savannah.gnu.org/releases/man-db/man-db-2.6.6.tar.xz
+  437  wget http://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
+  438  wget http://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.9.tar.xz
+  439  wget http://ftp.gnu.org/gnu/sed/sed-4.2.2.tar.bz2
+  440  wget http://cdn.debian.net/debian/pool/main/s/shadow/shadow_4.1.5.1.orig.tar.gz
+  441  wget http://ftp.gnu.org/gnu/tar/tar-1.27.1.tar.xz
+  442  wget http://www.iana.org/time-zones/repository/releases/tzdata2013i.tar.gz
+  443  wget http://ftp.gnu.org/gnu/texinfo/texinfo-5.2.tar.xz
+  444  wget http://anduin.linuxfromscratch.org/sources/other/udev-lfs-208-3.tar.bz2
+  445  wget http://tukaani.org/xz/xz-5.0.5.tar.xz
+  446  wget http://www.linuxfromscratch.org/patches/lfs/7.5/bash-4.2-fixes-12.patch
+  447  wget http://www.linuxfromscratch.org/patches/lfs/7.5/glibc-2.19-fhs-1.patch
+  448  ls
+  449  wget http://www.linuxfromscratch.org/patches/lfs/7.5/kbd-2.0.1-backspace-1.patch
+  450  wget http://www.linuxfromscratch.org/patches/lfs/7.5/tar-1.27.1-manpage-1.patch
+  451  mkdir -v $LFS/tools
+  452  cd ..
+  453  ll
+  454  ln -sv $LFS/tools /
+  455  cd home
+  456  cd home
+  457  cd
+  458  cd /tools
+  459  ls
+  460  ll
+  461  de .
+  462  cd ..
+  463  ll
+  464  cd /tools
+  465  ls
+  466  vim teste.txt
+  467  cd $LFS]
+  468  cd $LFS
+  469  ll
+  470  cd tools/
+  471  ll
+  472  rm teste.txt 
+  473  ll
+  474  cd
+  475  cd $LFS
+  476  ll
+  477  groupadd lfs
+  478  useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+  479  passwd lfs
+  480  chown -v lfs $LFS/tools
+  481  chown -vb lfs $LFS/sources 
+  482  chown -v lfs $LFS/sources 
+  483  ll
+  484  su - lfs
+  485  history 
+  486  cd SO/
+  487  cat history.txt 
+  488  history > history.txt 
